@@ -1,0 +1,109 @@
+/* background */
+.sfondo{
+  width: 100%;
+
+}
+
+/*  carattere */
+*{
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+
+/* Box nera */
+#box_nero
+{
+    opacity: 60%;
+    position: absolute;
+    top: 60px;
+    left: 240px;
+    background-color: black;
+    width: 1200px;
+    height: 780px;
+    border-radius: 15px;
+}
+/* LOGO LIM */
+#Logo
+{
+
+    position: absolute;
+    top: 130px;
+    left: 780px;
+    width: 230px;
+    height: 110px;
+
+  }
+
+/* Titolo */
+  #Titolo{
+      color:#00ff00;
+      text-align: center;
+      margin: auto;
+      position: absolute;
+      top: 250px;
+      left: 550px;
+      width: 600px;
+      height: 115px;
+    }
+    /* barra navigazione */
+    nav{
+      text-align:center;
+      background-color:#00ff00;
+      position: absolute;
+      top: 300px;
+      left: 360px;
+      width: 1000px;
+      height: 30px;
+      padding-top: 10px;
+
+    }
+    /* Monopattino */
+    .Monopattino{
+      color: White;
+      position:absolute;
+      top: 350px;
+      left: 360px;
+      width: 500px;
+      height: 10px;
+      line-height:1.1;
+
+    }
+
+    /* colonne */
+    .row-left, .row-right{
+      display: inline-block;
+
+    }
+
+
+
+    /* barra stato carica */
+    .BarraCarica1{
+      background-color:#FFC032;
+      width:390px;
+      height: 30px;
+      border-radius: 5px;
+
+
+    }
+
+    /* barra stato carica */
+    .BarraCarica2{
+      background-color:#00ff00;
+      width:610px;
+      height: 30px;
+      border-radius: 5px;
+
+
+    }
+
+    /* barra stato carica */
+    .BarraCarica3{
+      background-color:#C51D34;
+      width:140px;
+      height: 30px;
+      border-radius: 5px;
+
+
+    }
